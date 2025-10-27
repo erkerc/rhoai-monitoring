@@ -17,7 +17,7 @@ spec:
       serviceAccountName: grafana-service-account
       containers:
       - name: grafana
-        image: grafana/grafana:7.4.5
+        image: docker.io/grafana/grafana@sha256:6ac590e7cabc2fbe8d7b8fc1ce9c9f0582177b334e0df9c927ebd9670469440f
         ports:
         - name: grafana
           containerPort: 3000
